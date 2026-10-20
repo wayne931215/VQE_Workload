@@ -1,6 +1,6 @@
 # VQE Controller Workload
 
-`vqe_controller_workload.cpp` is a C++17 program that generates a **synthetic VQE-driven Host–Controller workload**. It models the number of algorithm/measurement events and, optionally, ordinary memory accesses representing parameter, command, and readout traffic.
+`vqe_controller_workload.cpp` is a C++ program that generates a **VQE-driven Host–Controller workload**. It models the number of algorithm/measurement events and, optionally, ordinary memory accesses representing parameter, command, and readout traffic.
 
 **This is not a QPU simulator or an instruction-accurate QICK controller model.** No CUDA-Q, GPU, or quantum hardware is required.
 
